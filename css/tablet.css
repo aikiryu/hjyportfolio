@@ -1,0 +1,286 @@
+@media all and (min-width:768px){
+aside{
+}
+/* 버튼스타일 */
+.defaultBtn{
+    width: 185px;
+    height:60px;
+    line-height: 60px;
+    font-size: 16px;
+}
+.defaultBtn:before{
+    width: 58px;
+    height: 58px;
+}
+
+/* 오브젝트들 */
+
+#s1{}
+#s1 .bar{
+    display: block;
+    width: 600px;
+    height:1px;
+    background-color:#000;
+    transform: rotate(-45deg);
+    position: absolute;
+}
+
+#s1 .bar1{
+    top: -100px;
+    right:-200px;
+}
+
+#s1 .bar2{
+    bottom:-100px;
+    left:-350px;
+}
+
+
+#s1 .round1{
+    width: 230px;
+    height: 230px;
+    border: 60px solid #5fb6ff;
+    top:0px;
+    right:0;
+    margin-right: -115px;
+    margin-top: 100px;
+}
+
+#s1 .round2{
+    width: 370px;
+    height:370px;
+    border:80px solid #1313d4;
+    bottom:0;
+    left:50%;
+    margin-left: 110px;
+    margin-bottom: -185px;
+}
+
+/* s1  */
+
+#s1 .subTit{
+    position: absolute;
+    top:-30px;
+    right:0;
+    font-size:20px;
+    font-weight: 200;
+    font-size:22px;
+    letter-spacing: 5px;
+    display:block;
+}
+
+/* section 공통영역(main제외) */
+
+section:not(#s1){
+    padding:100px 0;
+}
+
+
+section:not(#s1) h3{
+    font-size:72px;
+    margin-bottom:70px;
+    width:95%;
+    max-width:1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#s1 .Introduction p{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* s2영역 */
+
+#s2{
+    padding:100px 0 500px !important;
+}
+#s2 .con{
+    width:95%;
+    max-width:1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+#s2 .item{
+    width:47%;
+    margin-bottom:170px;
+}
+#s2 .item1{
+    margin-left: auto;
+    width:47%;
+    margin-bottom:170px;
+}
+#s2 .item h4{
+    font-size:24px;
+    margin-bottom:80px;
+}
+#s2 .item1 h4{
+    font-size:24px;
+    margin-bottom:80px;
+}
+
+#s2 .item li{
+    margin-bottom:25px;
+    margin-top:0;
+}
+#s2 .item1 li{
+    margin-bottom:25px;
+    margin-top:0;
+}
+#s2 .defaultBtn{
+    position:fixed;
+    left: 50%;
+    top:100px;
+    margin-left: 475px;
+    display:none;
+}
+
+
+#s2 .str1{
+    width:234px;
+    height:234px;
+    top:470px;
+    left:-80px
+}
+
+#s2 .str2{
+    width:348px;
+    height:348px;
+    bottom:60px;
+    right:-20px
+}
+
+#s2 .round1{
+    width:230px;
+    height:230px;
+    top:50%;
+    margin-top:160px;
+    left: 80px;
+    border-radius: 50%;
+    border:80px solid #fff;
+    position: absolute;
+}
+
+/* #s3 */
+
+#s3 .con{
+    width:95%;
+    max-width:1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+#s3 .item{
+    width:48%;
+    margin-bottom:120px;
+    max-width: 580px;
+}
+#s3 .item figure{
+    width: 100%;
+    height:auto;
+}
+
+#s3 .round2{
+    border:#5fb6ff 60px solid;
+    width:258px;
+    height: 258px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    left:0;
+    margin-left:-129px;
+    top:50%;
+}
+
+#s3 .round1{
+    border:#1313d4 80px solid;
+    width:370px;
+    height: 370px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    right:0;
+    margin-right:-185px;
+    top:0;
+    margin-top: 80px;
+}
+#s3 .item button{
+    position:absolute;
+    right: 20px;
+    bottom:0
+}
+/* s4영역 */
+
+#s4 .con{
+    width: 95%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    position: relative;
+    display: flex;
+}
+#s4 .item{
+    flex:1;
+    position: relative;
+}
+#s4 .item:first-child{
+    order:2;
+}
+#s4 figure{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+}
+
+#s4 .item:last-child{
+    text-align: right;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    padding:0 5%;
+    align-items: flex-end;
+}
+
+#s4 .round{
+    width:272px;
+    height:272px;
+    border-radius: 50%;
+    border:60px #1313d4 solid;
+    box-sizing: border-box;
+    position: absolute;
+    right:0;
+    top:0;
+    margin-top: -136px;
+    margin-right:-136px;
+}
+
+#s4 .bar{
+    height: 360px;
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(-65deg);
+    top:0;
+    left:0;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+footer .fWrap{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+}/*태블릿끝*/
