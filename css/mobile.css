@@ -219,7 +219,7 @@ nav a{
 }
 #s1 .mainBg{
     height: 30vh;
-    background-image: url(../images/s1_mainBg.jpg);
+    background-image: url(../images/s1_mainbg2.jpg);
     background-size: 1200px auto;
     background-position: left top;
     position: relative;
@@ -421,7 +421,6 @@ section:not(#s1) h3{
 }
 #s2 .item{
     margin-bottom: 100px;
-    height:200px;
 }
 #s2 .item h4{
     font-weight: 700;
